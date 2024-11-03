@@ -37,6 +37,15 @@ int main()
 	//Loop principal
 	while (App.isOpen())
 	{
+		Event evt;
+		while (App.pollEvent(evt)) {
+			switch (evt.type)
+			{
+			case sf::Event::Closed:
+				App.close();
+				break;
+			}
+		}
 		//Limpiar ventana
 		App.clear();
 
