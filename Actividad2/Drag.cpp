@@ -57,32 +57,8 @@ int main()
 			case sf::Event::Closed:
 				App.close();
 				break;
-
-			/*case sf::Event::MouseButtonPressed:
-							
-				sf::Vector2f posicionCursor = sf::Vector2f(sf::Mouse::getPosition(App).x, sf::Mouse::getPosition(App).y);
-				FloatRect rc1 = spr_rcircle1.getGlobalBounds();
-				FloatRect rc2 = spr_rcircle2.getGlobalBounds();
-				FloatRect rc3 = spr_rcircle3.getGlobalBounds();
-				FloatRect rc4 = spr_rcircle4.getGlobalBounds();
-
-				if (sf::Mouse::isButtonPressed(sf::Mouse::Left)) {
-					
-					if (rc1.contains(posicionCursor.x, posicionCursor.y)) {
-						spr_rcircle1.setPosition(15 + posicionCursor.x, 15 + posicionCursor.y);
-					}
-					if (rc2.contains(posicionCursor.x, posicionCursor.y)) {
-						spr_rcircle2.setPosition(15 + posicionCursor.x, 15 + posicionCursor.y);
-					}
-					if (rc3.contains(posicionCursor.x, posicionCursor.y)) {
-						spr_rcircle3.setPosition(15 + posicionCursor.x, 15 + posicionCursor.y);
-					}
-					if (rc4.contains(posicionCursor.x, posicionCursor.y)) {
-						spr_rcircle4.setPosition(15 + posicionCursor.x, 15 + posicionCursor.y);
-					}
-				}*/
-				
 			}
+			
 			FloatRect rc1 = spr_rcircle1.getGlobalBounds();
 			FloatRect rc2 = spr_rcircle2.getGlobalBounds();
 			FloatRect rc3 = spr_rcircle3.getGlobalBounds();
