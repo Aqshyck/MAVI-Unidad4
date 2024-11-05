@@ -6,9 +6,6 @@ Investigue e implemente una aplicación que permita al usuario cambiar el tamaño 
 //BIBLIOTECAS//
 #include <SFML/Window.hpp>
 #include <SFML/Graphics.hpp>
-#include <algorithm>
-#include <vector>
-#include <stdlib.h>
 using namespace sf;
 
 //VARIABLES//
